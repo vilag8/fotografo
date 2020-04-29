@@ -1,0 +1,74 @@
+/**** VARIABILI ****/
+$coloreoro: rgba(204, 143, 28, 1);
+$caratteretesto: 'great vibes';
+
+/*** GENERALI ***/
+*{font-family: 'belgrano';}
+ul{list-style-type: none;}
+a:hover{color: $coloreoro;}
+
+
+
+/**** COLONNA SINISTRA *****/
+.col-sm-3.sinistra{
+    padding: 3%;
+    p{
+        color: $coloreoro;
+        font-weight: bold;;
+        margin-top: -11px;
+        margin-bottom: 1rem;
+        font-size: 70%;
+        margin-left: 17%;
+        font-family: 'belgrano';
+        letter-spacing: 2px;
+    }
+    h2{
+        font-family: $caratteretesto;
+        font-size: 282%;
+    }
+    ul{
+        margin-left: -13%;
+        margin-top: 22%;
+        li{
+            margin-bottom: 7%;
+            font-size: 136%;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+/**** COLONNA DESTRA *****/
+.destra{
+    background: linear-gradient(273deg, black, transparent), url('../images/foto.jpg') no-repeat center/ cover;
+    border-left: solid;
+    border-left-width: 1px;
+    h1{
+        font-family: $caratteretesto;
+        font-size: 573%;
+        margin-top: 15%;
+        color: $coloreoro;
+        margin-left: 77%;
+    }
+    .text{
+        background: rgba(32, 33, 35, 0.5);
+        color: white;
+        font-family: 'belgrano';
+        margin-left: 77%;
+        padding: 1%;
+    }
+    hr{
+        background: white;
+        margin-left: 78%;
+    }
+}
+
+/**** FOOTER *****/
+.row.p-4{
+    margin-left: 346px;
+    border-left: solid;
+    border-left-width: 1px;
+    p{
+        margin-top: 10%;
+    }
+}
